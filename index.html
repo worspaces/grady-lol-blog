@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Surprise!</title>
+  <title>Grady's stuff</title>
   <style>
     body {
       display: flex;
@@ -27,21 +27,57 @@
         0 0 10px #FFD700;
     }
 
-    .smaller-text {
-      font-size: 1.9rem;
+    .smaller-text, .tiny-text, .about-text, .copyright-text {
       font-weight: bold;
       color: #FFD700; /* Yellow color */
-      text-shadow: 
-        0 0 1px #FFD700, 
-        0 0 2px #FFD700, 
-        0 0 3px #FFD700;
-      margin-top: 20px;
+      text-shadow: 0 0 1px #FFD700, 0 0 2px #FFD700;
       text-align: center;
+    }
+
+    .smaller-text {
+      font-size: 1.9rem;
+      margin-top: 20px;
+    }
+
+    .tiny-text {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    .spacer {
+      height: 100px; /* Creates a wide space before the next section */
+    }
+
+    .about-heading {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #FFD700;
+      text-shadow: 0 0 2px #FFD700, 0 0 4px #FFD700;
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    .about-text {
+      font-size: 1.5rem;
+      margin-top: 10px;
+    }
+
+    .copyright-text {
+      font-size: 1.2rem;
+      margin-top: 50px;
     }
   </style>
 </head>
 <body>
   <h1 class="surprise-text">Surprise!</h1>
   <p class="smaller-text">I might get <a href="https://kuadray.store/" style="color: #FFD700; text-decoration: underline;">https://kuadray.store/</a> if you want me to 🤫</p>
+  <p class="tiny-text">(I see that <a href="https://kuadray.mom/" style="color: #FFD700; text-decoration: underline;">https://kuadray.mom/</a> could be a good option too..)</p>
+
+  <div class="spacer"></div>
+
+  <h2 class="about-heading">About Grady:</h2>
+  <p class="about-text">Grady hasn't told me what to add here yet, so I guess it will just stay like this for a while.</p>
+
+  <p class="copyright-text">2025 © Copyright <a href="https://grady.lol/" style="color: #FFD700; text-decoration: underline;">https://grady.lol/</a>, maintained by Wilbur.</p>
 </body>
 </html>

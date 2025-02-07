@@ -12,12 +12,15 @@
     body {
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: flex-start; /* Align content at the top */
       align-items: center;
-      height: 100vh;
+      min-height: 100vh; /* Make sure the height of the page is at least the viewport height */
+      width: 100%; /* Ensure the body takes the full width */
       margin: 0;
       background-color: black;
       position: relative;
+      padding: 20px; /* Adds padding for better spacing */
+      box-sizing: border-box;
     }
 
     .surprise-text {
@@ -30,6 +33,7 @@
         0 0 6px #FFD700, 
         0 0 8px #FFD700, 
         0 0 10px #FFD700;
+      text-align: center;
     }
 
     .motw-text {
@@ -38,6 +42,7 @@
       color: #FFD700;
       text-shadow: 0 0 2px #FFD700, 0 0 4px #FFD700;
       margin-top: 20px;
+      text-align: center;
     }
 
     .smaller-text, .tiny-text, .about-text, .copyright-text {
@@ -103,6 +108,47 @@
         display: none;
       }
     }
+
+    /* Responsive Text Adjustments */
+    @media (max-width: 768px) {
+      .surprise-text {
+        font-size: 3.5rem; /* Adjusted size for mobile */
+      }
+
+      .motw-text {
+        font-size: 1.5rem;
+      }
+
+      .smaller-text {
+        font-size: 1.4rem;
+      }
+
+      .tiny-text {
+        font-size: 1rem;
+      }
+
+      .about-heading {
+        font-size: 1.5rem;
+      }
+
+      .about-text {
+        font-size: 1.2rem;
+      }
+
+      .copyright-text {
+        font-size: 1rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .surprise-text {
+        font-size: 2.5rem; /* Further adjustment for very small screens */
+      }
+
+      .motw-text {
+        font-size: 1.2rem;
+      }
+    }
   </style>
 </head>
 <body>
@@ -125,7 +171,7 @@
   <p class="tiny-text">(This website might get blocked by RRMS, but I don't think it's a big deal as I can just make this unblocked with googleusercontent, since this website is coded all with HTML 😂)</p>
 
   <!-- Disclaimer -->
-  <p class="tiny-text">Disclaimer: If this website shows an invalid certificate (shows "Not Secure") then it probably means that you are on mobile and this will happen all the time, so don't mind it.</p>
+  <p class="tiny-text">Disclaimer: Our android emulator will not work anymore due to it causing disruptions with the SSL certificate (Making sure it doesn't say that this website is malicious), sorry for the inconvenience. This issue will be resolved soon!</p>
 
   <div class="spacer"></div>
 

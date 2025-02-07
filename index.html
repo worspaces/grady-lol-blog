@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Grady's stuff</title>
+
+  <!-- Google AdSense Script -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9773017729831801" crossorigin="anonymous"></script>
+
   <style>
     body {
       display: flex;
@@ -12,13 +16,14 @@
       align-items: center;
       height: 100vh;
       margin: 0;
-      background-color: black; /* Set a dark background for contrast */
+      background-color: black;
+      position: relative;
     }
 
     .surprise-text {
       font-size: 5rem;
       font-weight: bold;
-      color: #FFD700; /* Yellow color */
+      color: #FFD700;
       text-shadow: 
         0 0 2px #FFD700, 
         0 0 4px #FFD700, 
@@ -29,7 +34,7 @@
 
     .smaller-text, .tiny-text, .about-text, .copyright-text {
       font-weight: bold;
-      color: #FFD700; /* Yellow color */
+      color: #FFD700;
       text-shadow: 0 0 1px #FFD700, 0 0 2px #FFD700;
       text-align: center;
     }
@@ -45,7 +50,7 @@
     }
 
     .spacer {
-      height: 100px; /* Creates a wide space before the next section */
+      height: 100px;
     }
 
     .about-heading {
@@ -66,9 +71,43 @@
       font-size: 1.2rem;
       margin-top: 50px;
     }
+
+    /* Side Ad Styling */
+    .side-ad {
+      position: fixed;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 160px;
+      height: 600px;
+    }
+
+    .left-ad {
+      left: 10px;
+    }
+
+    .right-ad {
+      right: 10px;
+    }
+
+    /* Hide Ads on Small Screens */
+    @media (max-width: 1024px) {
+      .side-ad {
+        display: none;
+      }
+    }
   </style>
 </head>
 <body>
+  <!-- Left Ad -->
+  <ins class="adsbygoogle side-ad left-ad"
+       data-ad-client="ca-pub-9773017729831801"
+       data-ad-slot="YOUR_AD_SLOT_ID_LEFT"
+       data-ad-format="vertical"
+       data-full-width-responsive="false"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
   <h1 class="surprise-text">Surprise!</h1>
   <p class="smaller-text">I might get <a href="https://kuadray.store/" style="color: #FFD700; text-decoration: underline;">https://kuadray.store/</a> if you want me to 🤫</p>
   <p class="tiny-text">(I see that <a href="https://kuadray.mom/" style="color: #FFD700; text-decoration: underline;">https://kuadray.mom/</a> could be a good option.)</p>
@@ -79,5 +118,16 @@
   <p class="about-text">Grady hasn't told me what to add here yet, so I guess it will just stay like this for a while.</p>
 
   <p class="copyright-text">2025 © Copyright <a href="https://grady.lol/" style="color: #FFD700; text-decoration: underline;">https://grady.lol/</a>, maintained by Wilbur.</p>
+
+  <!-- Right Ad -->
+  <ins class="adsbygoogle side-ad right-ad"
+       data-ad-client="ca-pub-9773017729831801"
+       data-ad-slot="YOUR_AD_SLOT_ID_RIGHT"
+       data-ad-format="vertical"
+       data-full-width-responsive="false"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 </body>
 </html>

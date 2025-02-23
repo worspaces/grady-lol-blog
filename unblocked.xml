@@ -1,3 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+    <ModulePrefs title="Full Screen Iframe"/>
+    <Content type="html">
+        <![CDATA[
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -166,3 +171,6 @@
   <p class="copyright-text">2025 © Copyright <a href="https://grady.lol/" style="color: #FFD700; text-decoration: underline;">https://grady.lol/</a>, maintained by <a href="mailto:studentaccbro@gmail.com" style="color: #FFD700; text-decoration: underline;">Wilbur</a>.</p>
 </body>
 </html>
+        ]]>
+    </Content>
+</Module>

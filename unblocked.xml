@@ -1,14 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<Module>
-    <ModulePrefs title="Full Screen Iframe"/>
-    <Content type="html">
-        <![CDATA[
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Grady's stuff</title>
+  <title>Home | grady.lol</title>
 
   <!-- Google AdSense Script -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9773017729831801" crossorigin="anonymous"></script>
@@ -57,6 +52,15 @@
       text-align: center;
     }
 
+    .link-text a {
+      color: #FFD700;
+      font-size: 3rem;
+      font-weight: bold;
+      text-decoration: underline;
+      text-shadow: 0 0 10px #FFD700, 0 0 2px #FFD700;
+      text-align: center;
+    }
+
     .spacer {
       height: 100px;
     }
@@ -83,7 +87,7 @@
     .other-links-heading {
       font-size: 2rem;
       font-weight: bold;
-      color: #F0CE0E; /* Brighter white for contrast */
+      color: #F0CE0E;
       text-shadow: 0 0 4px #F0CE0E, 0 0 8px #F0CE0E;
       margin-top: 50px;
       text-align: center;
@@ -92,7 +96,7 @@
     .other-link {
       font-size: 1.5rem;
       font-weight: bold;
-      color: #F0CE0E; /* Brighter white */
+      color: #F0CE0E;
       text-shadow: 0 0 2px #F0CE0E, 0 0 4px #F0CE0E;
       margin-top: 10px;
       text-align: center;
@@ -102,55 +106,63 @@
       color: #F0CE0E;
       text-decoration: underline;
     }
+
+    /* Custom Scrollbar Styles */
+    ::-webkit-scrollbar {
+      width: 12px;
+      height: 12px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background-color: black;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background-color: #FFD700;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background-color: #FFA500;
+      box-shadow: 0 0 15px #FFA500, 0 0 25px #FFA500;
+    }
+
+    /* Firefox Scrollbar */
+    * {
+      scrollbar-width: thin;
+      scrollbar-color: #FFD700 black;
+    }
   </style>
 </head>
 <body>
-  <!-- Left Ad -->
-  <ins class="adsbygoogle side-ad left-ad"
-       data-ad-client="ca-pub-9773017729831801"
-       data-ad-slot="YOUR_AD_SLOT_ID_LEFT"
-       data-ad-format="vertical"
-       data-full-width-responsive="false"></ins>
-  <script>
-       (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-
   <h1 class="surprise-text">Welcome!</h1>
-  
-  <!-- New MOTW Text -->
-  <p class="motw-text">Quote Of The Day | QOTD: <span style="color: #FFD700; font-weight: normal;">"The fog is coming." - Latham</span></p>
 
-  <p class="about-heading">what the skigma?</p>
+  <p class="motw-text">Quote Of The Day | QOTD: <span style="color: #FFD700; font-weight: normal;">"The sky is diddling!" - Latham</span></p>
+
   <p class="tiny-text">(This website might get blocked by RRMS, but I don't think it's a big deal as I can just make this unblocked with googleusercontent, since this website is coded all with HTML 😂)</p>
 
-  <!-- Disclaimer -->
   <p class="about-text">Update: Fixed the android emulator, if you get redirected here again, clear your cookies.</p>
-  <p class="about-text">Disclaimer: If you see that the page is not secure, it's because when I bought the domain, it glitched the SSL, so just ignore it please.</p>
+  <p class="about-text">Disclaimer: If you see that the page is not secure, it's because when I bought the domain, it glitched the SSL, so just ignore it please. | Android emulator isn't coming back, sorry for the major inconvenience.</p>
+
+  <p class="link-text"><a href="https://grady.lol/faq">Have any questions?</a></p>
 
   <div class="spacer"></div>
 
   <h2 class="about-heading">About Grady:</h2>
   <p class="about-text">Grady hasn't told me what to add here yet, so I guess it will just stay like this for a while.</p>
 
-  <!-- New Section -->
   <h2 class="other-links-heading">Other websites I own:</h2>
-  <p class="other-link"><a href="https://goofy.mom/">goofy.mom</a></p>
-  <p class="other-link"><a href="https://are.fr.to/">are.fr.to</a></p>
-  <p class="other-link"><a href="https://website.hs.vc/">website.hs.vc</a></p>
+  <p class="other-link"><a href="https://wilburz.com/">wilburz.com</a> - Main website</p>
+  <p class="other-link"><a href="https://goofy.mom/">goofy.mom</a> - RIP</p>
+  <p class="other-link"><a href="https://eschers.space/">eschers.space</a> - Eschers bio</p>
+  <p class="other-link"><a href="https://questioning.life/">questioning.life</a> - Friend group's website</p>
+  <p class="other-link"><a href="https://foreshadowing.life/">foreshadowing.life</a> - ?</p>
+  <p class="other-link"><a href="https://youis.gay/">youis.gay</a> - why</p>
+  <p class="other-link"><a href="https://website.hs.vc/">website.hs.vc</a> - FreeDNS website</p>
+  <p class="other-link"><a href="https://are.fr.to/">are.fr.to</a> - Eaglercraft (Updates)</p>
+  <p class="other-link"><a href="https://skibiditoi.lat/">skibiditoi.lat</a> - FreeDNS runner made by me :)</p>
 
   <p class="copyright-text">2025 © Copyright <a href="https://grady.lol/" style="color: #FFD700; text-decoration: underline;">https://grady.lol/</a>, maintained by <a href="mailto:studentaccbro@gmail.com" style="color: #FFD700; text-decoration: underline;">Wilbur</a>.</p>
-
-  <!-- Right Ad -->
-  <ins class="adsbygoogle side-ad right-ad"
-       data-ad-client="ca-pub-9773017729831801"
-       data-ad-slot="YOUR_AD_SLOT_ID_RIGHT"
-       data-ad-format="vertical"
-       data-full-width-responsive="false"></ins>
-  <script>
-       (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
 </body>
 </html>
-        ]]>
-    </Content>
-</Module>

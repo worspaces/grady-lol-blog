@@ -138,33 +138,19 @@
 <body>
   <h1 class="surprise-text">Welcome!</h1>
 
-  <p class="motw-text" id="motd">Quote Of The Day | QOTD: <span style="color: #427B2C; font-weight: normal;">Loading...</span></p>
-
-<script>
-  fetch('https://cdn.jsdelivr.net/gh/worspaces/at-the-top-of-it/qotd.json')
-    .then(response => response.json())
-    .then(data => {
-      document.getElementById("motd").innerHTML = 
-        `Quote Of The Day | QOTD: <span style="color: #427B2C; font-weight: normal;">"${data.quote}" - ${data.author}</span>`;
-    })
-    .catch(error => {
-      console.error("Failed to load QOTD:", error);
-      document.getElementById("motd").innerHTML = 
-        `Quote Of The Day | QOTD: <span style="color: #427B2C; font-weight: normal;">Failed to load.</span>`;
-    });
-</script>
+  <p class="motw-text" id="motd">Quote Of The Day | QOTD: <span style="font-weight: normal;">...</span></p>
 
   <p class="tiny-text">something was here but was removed</p>
 
-  <p class="about-text">Update: Android emulator is back! Have fun.</p>
-  <p class="about-text">Disclaimer: Nothing for now...</p>
+  <p class="about-text">Update: restored this website!</p>
+  <p class="about-text">Disclaimer: ...</p>
 
   <p class="link-text"><a href="https://grady.lol/faq">Have any questions?</a></p>
 
   <div class="spacer"></div>
 
   <h2 class="about-heading">About Grady:</h2>
-  <p class="about-text">Grady hasn't told me what to add here yet, so I guess it will just stay like this for a while.</p>
+  <p class="about-text">Grady hasn't told me what to add here yet, but I know that he is a <b>state champion</b>!</p>
 
   <h2 class="other-links-heading">Other websites I own:</h2>
   <p class="other-link"><a href="https://wilburz.com/">wilburz.com</a> - Main</p>

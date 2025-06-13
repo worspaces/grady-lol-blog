@@ -23,6 +23,7 @@
       width: 100%;
       margin: 0;
       background-color: black;
+      font-family: Impact, Charcoal, sans-serif;
       position: relative;
       padding: 20px;
       box-sizing: border-box;
@@ -143,22 +144,24 @@
 <body>
   <h1 class="surprise-text">Welcome!</h1>
 
-  <p class="motw-text">Quote Of The Day | QOTD: <span style="color: #FFD700; font-weight: normal;">"The sky is diddling!" - Latham</span></p>
+  <p class="motw-text" id="motd">Quote Of The Day | QOTD: <span style="font-weight: normal;">...</span></p>
 
-  <p class="tiny-text">(This website might get blocked by RRMS, but I don't think it's a big deal as I can just make this unblocked with googleusercontent, since this website is coded all with HTML 😂)</p>
+  <p class="tiny-text">something was here but was removed</p>
 
-  <p class="about-text">Update: Fixed the android emulator, if you get redirected here again, clear your cookies.</p>
-  <p class="about-text">Disclaimer: If you see that the page is not secure, it's because when I bought the domain, it glitched the SSL, so just ignore it please. | Android emulator isn't coming back, sorry for the major inconvenience.</p>
+  <p class="about-text">Update: restored this website!</p>
+  <p class="about-text">Disclaimer: ...</p>
 
-  <p class="link-text"><a href="https://grady.lol/faq">Have any questions?</a></p>
+  <p class="link-text"><a href="https://grady.lol/faq/">Have any questions?</a></p>
 
   <div class="spacer"></div>
 
   <h2 class="about-heading">About Grady:</h2>
-  <p class="about-text">Grady hasn't told me what to add here yet, so I guess it will just stay like this for a while.</p>
+  <p class="about-text">Grady hasn't told me what to add here yet, but I know that he is a <b>state champion</b>!</p>
 
   <h2 class="other-links-heading">Other websites I own:</h2>
-  <p class="other-link"><a href="https://wilburz.com/">wilburz.com</a> - Main website</p>
+  <p class="other-link"><a href="https://wilburz.com/">wilburz.com</a> - Main</p>
+  <p class="other-link"><a href="https://craz.top/">craz.top</a> - Main (2)</p>
+  <p class="other-link"><a href="https://cheesa.wilburz.com/yapish/">cheesa.wilburz.com/yapish</a> - Learn Yapish today! The password is "please" without the quotes.</p>
   <p class="other-link"><a href="https://goofy.mom/">goofy.mom</a> - RIP</p>
   <p class="other-link"><a href="https://eschers.space/">eschers.space</a> - Eschers bio</p>
   <p class="other-link"><a href="https://questioning.life/">questioning.life</a> - Friend group's website</p>
@@ -169,6 +172,12 @@
   <p class="other-link"><a href="https://skibiditoi.lat/">skibiditoi.lat</a> - FreeDNS runner made by me :)</p>
 
   <p class="copyright-text">2025 © Copyright <a href="https://grady.lol/" style="color: #FFD700; text-decoration: underline;">https://grady.lol/</a>, maintained by <a href="mailto:studentaccbro@gmail.com" style="color: #FFD700; text-decoration: underline;">Wilbur</a>.</p>
+  <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+    new Crate({
+        server: '1344139175133184020', // Wilbur's Dumpster
+        channel: '1344499659682484317' // #talk-widget-🚪
+    })
+</script>
 </body>
 </html>
         ]]>
